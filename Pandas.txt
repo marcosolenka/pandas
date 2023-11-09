@@ -6,7 +6,7 @@ CURSO PANDAS
 
  import pandas as pd 
 
- url = 'link'
+ url = 'https://github.com/marcosolenka/pandas/blob/main/superstore.csv'
  dados_mercado = pd.read_csv(url) -- Faz a leitura do arquivo
  dados_mercado.head() -- Exibe as 5 primeiras linhas 
  
